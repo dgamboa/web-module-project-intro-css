@@ -72,11 +72,11 @@ a {
 
 nav {
   text-align: center;
-  padding: 40px;
+  padding: 4rem;
 }
 
 nav a {
-  border-radius: 12px;
+  border-radius: 1.2rem;
   color: white;
   display: inline-block;
   font-size: 1.6rem;
@@ -133,8 +133,6 @@ nav a {
 
 .circle-picture img:hover {
   border-radius: 5px;
-  border: 1px solid #ffcd6a;
-  box-shadow: 0 0 4px 5px rgba(255, 255, 128, .3);;
 }
 
 .site-title {
