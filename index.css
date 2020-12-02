@@ -1,7 +1,7 @@
 /* --------------------------------------- */
 /* Import Google Fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:wght@400;600&display=swap');
 /* font-family: 'Chelsea Market', cursive; */
 /* font-family: 'Roboto Mono', monospace; */
 
@@ -24,7 +24,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	/* border: 0; */
+	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -53,19 +53,9 @@ table {
 	border-spacing: 0;
 }
 
-/* Colors */
-/* Top left: #ff754e */
-/* Middle: #5fd3ec */
-/* Top right: #ffcd6a */
-/* Hero-banner: #ddb9a3 */
-/* Footer: #f9e7dd */
 
 /* --------------------------------------- */
 /* General Styles */
-
-* {
-  border: 1px solid black; /* revert on reset */
-}
 
 html {
   font-size: 62.5%; /* default size 16px --> 10px */
@@ -82,7 +72,7 @@ a {
 
 nav {
   text-align: center;
-  margin: 40px;
+  padding: 40px;
 }
 
 nav a {
@@ -109,20 +99,18 @@ nav a {
 
 .site-heading {
   box-sizing: border-box;
-  margin: 30px auto;
+  margin: 15px auto;
 }
 
 .circle-picture {
-  border-radius: 100px;
   display: inline-block;
-  height: 200px;
-  margin: 0 60px;
-  width: 200px;
+  margin: 0 140px;
 }
 
 .circle-picture img {
-  border-radius: 100px;
-  width: 200px;
+  border-radius: 110px;
+  width: 220px;
+  transition: 1s;
 }
 
 .site-title {
@@ -141,14 +129,14 @@ nav a {
 }
 
 .site-title h2 {
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   margin-bottom: 25px;
   line-height: 1.8rem;
 }
 
 #subtitle-2 {
   margin: 0 auto;
-  width: 50%;
+  width: 40%;
 }
 
 /* --------------------------------------- */
@@ -157,16 +145,16 @@ nav a {
 .hero-banner {
   color: white;
   background-color: #ddb9a3;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   line-height: 1.8rem;
   margin: 0 auto;
-  padding: 10px;
+  padding: 10px 15px;
   text-align: center;
-  width: 90%;
+  width: 80%;
 }
 
 h3:first-child {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 
@@ -174,25 +162,25 @@ h3:first-child {
 /* Content Styles */
 
 .content {
+  margin: 0 auto 70px auto;
   text-align: center;
-  margin: 0 auto;
 }
 
 .content img {
-  margin: 10px 0;
+  margin: 15px 0;
   width: 100px;
 }
 
 .content p {
-  margin: 0 auto 50px auto;
-  width: 25%;
   font-size: 1.2rem;
-  line-height: 1.2rem;
+  line-height: 1.3rem;
+  margin: 0 auto 20px auto;
+  width: 22%;
 }
 
 .content a {
   color: black;
-  font-weight: bolder;
+  font-weight: 600;
 }
 
 
@@ -208,10 +196,9 @@ footer {
   background-image: url(assets/footer_img.jpg);
   background-size: 100%;
   background-position-y: -50px;
-  height: 180px;
+  height: 220px;
 }
 
 footer img {
   width: 100%;
 }
-
