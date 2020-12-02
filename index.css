@@ -191,6 +191,7 @@ h3:first-child {
 .content img {
   margin: 15px 0;
   width: 100px;
+  transition: 1.5s;
 }
 
 .content p {
@@ -203,6 +204,27 @@ h3:first-child {
 .content a {
   color: black;
   font-weight: 600;
+}
+
+.campfire:hover img {
+  animation: fire 1s;
+}
+
+.camper:hover img {
+  margin-right: 150px;
+  transform: rotate(10deg);
+}
+
+@keyframes fire {
+  5%, 95% { transform: translate(-2px, 0); }
+  10%, 90% { transform: translate(2px, 0); }
+  15%, 85% { transform: translate(-2px, 0); }
+  20%, 80% { transform: translate(2px, 0); }
+  25%, 75% { transform: translate(-2px, 0); }
+  30%, 70% { transform: translate(2px, 0); }
+  35%, 65% { transform: translate(-2px, 0); }
+  40%, 60% { transform: translate(2px, 0); }
+  45%, 55% { transform: translate(-2px, 0); }
 }
 
 
