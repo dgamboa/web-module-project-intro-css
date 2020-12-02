@@ -200,5 +200,18 @@ h3:first-child {
 /* Footer Styles */
 
 footer {
+  background-color: #f9e7dd;
   width: 100%;
 }
+
+.footer-background {
+  background-image: url(assets/footer_img.jpg);
+  background-size: 100%;
+  background-position-y: -50px;
+  height: 180px;
+}
+
+footer img {
+  width: 100%;
+}
+
