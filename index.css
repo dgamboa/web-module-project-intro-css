@@ -86,15 +86,33 @@ nav a {
 }
 
 .plan {
+  border: 1px solid #ff754e;
   background-color: #ff754e;
 }
 
+.plan:hover {
+  background-color: white;
+  color: black;
+}
+
 .learn {
+  border: 1px solid #5fd3ec;
   background-color: #5fd3ec;
 }
 
+.learn:hover {
+  background-color: white;
+  color: black;
+}
+
 .get {
+  border: 1px solid #ffcd6a;
   background-color: #ffcd6a;
+}
+
+.get:hover {
+  background-color: white;
+  color: black;
 }
 
 .site-heading {
@@ -111,6 +129,12 @@ nav a {
   border-radius: 110px;
   width: 220px;
   transition: 1s;
+}
+
+.circle-picture img:hover {
+  border-radius: 5px;
+  border: 1px solid #ffcd6a;
+  box-shadow: 0 0 4px 5px rgba(255, 255, 128, .3);;
 }
 
 .site-title {
