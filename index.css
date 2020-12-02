@@ -24,7 +24,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -53,10 +53,6 @@ table {
 	border-spacing: 0;
 }
 
-
-/* --------------------------------------- */
-/* Header and Heading Styles */
-
 /* Colors */
 /* Top left: #ff754e */
 /* Middle: #5fd3ec */
@@ -64,7 +60,15 @@ table {
 /* Hero-banner: #ddb9a3 */
 /* Footer: #f9e7dd */
 
+/* --------------------------------------- */
+/* General Styles */
+
+* {
+  border: 1px solid black; /* revert on reset */
+}
+
 html {
+  font-size: 62.5%; /* default size 16px --> 10px */
   font-family: 'Roboto Mono', monospace;
 }
 
@@ -72,16 +76,73 @@ a {
   text-decoration: none;
 }
 
+
+/* --------------------------------------- */
+/* Header and Heading Styles */
+
 nav {
   text-align: center;
   margin: 40px;
 }
 
 nav a {
-  padding: 10px;
+  border-radius: 12px;
+  color: white;
+  display: inline-block;
+  font-size: 1.6rem;
+  margin: 0 7%;
+  padding: 10px 15px;
+  width: 110px;
 }
 
-h1 {
+.plan {
+  background-color: #ff754e;
+}
+
+.learn {
+  background-color: #5fd3ec;
+}
+
+.get {
+  background-color: #ffcd6a;
+}
+
+.site-heading {
+  box-sizing: border-box;
+  margin: 30px auto;
+}
+
+.circle-picture {
+  margin: 0 60px;
+  display: inline-block;
+}
+
+.circle-picture img {
+  border-radius: 100px;
+  width: 200px;
+}
+
+.site-title {
+  display: block;
+  text-align: center;
+  margin-top: -206px;
+  margin-left: 263px;
+  height: 204px;
+}
+
+.site-title h1 {
   font-family: 'Chelsea Market', cursive;
-  font-size: 20px;
+  font-size: 4.5rem;
+  margin: 25px 0;
+  letter-spacing: 0.25rem;
+}
+
+.site-title h2 {
+  font-size: 1.6rem;
+  margin-bottom: 25px;
+}
+
+#subtitle-2 {
+  margin: 0 auto;
+  width: 50%;
 }
