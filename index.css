@@ -122,7 +122,7 @@ nav a {
 
 .circle-picture {
   display: inline-block;
-  margin: 0 140px;
+  margin: 0 100px;
 }
 
 .circle-picture img {
@@ -241,6 +241,11 @@ footer {
   background-size: 100%;
   background-position-y: -50px;
   height: 220px;
+  transition: 5s;
+}
+
+.footer-background:hover {
+  background-position-y: -150px;
 }
 
 footer img {
