@@ -113,8 +113,11 @@ nav a {
 }
 
 .circle-picture {
-  margin: 0 60px;
+  border-radius: 100px;
   display: inline-block;
+  height: 200px;
+  margin: 0 60px;
+  width: 200px;
 }
 
 .circle-picture img {
@@ -140,9 +143,62 @@ nav a {
 .site-title h2 {
   font-size: 1.6rem;
   margin-bottom: 25px;
+  line-height: 1.8rem;
 }
 
 #subtitle-2 {
   margin: 0 auto;
   width: 50%;
+}
+
+/* --------------------------------------- */
+/* Hero Banner Styles */
+
+.hero-banner {
+  color: white;
+  background-color: #ddb9a3;
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  width: 90%;
+}
+
+h3:first-child {
+  margin-bottom: 15px;
+}
+
+
+/* --------------------------------------- */
+/* Content Styles */
+
+.content {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.content img {
+  margin: 10px 0;
+  width: 100px;
+}
+
+.content p {
+  margin: 0 auto 50px auto;
+  width: 25%;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+}
+
+.content a {
+  color: black;
+  font-weight: bolder;
+}
+
+
+/* --------------------------------------- */
+/* Footer Styles */
+
+footer {
+  width: 100%;
 }
