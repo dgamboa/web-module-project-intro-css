@@ -118,11 +118,13 @@ nav a {
 .site-heading {
   box-sizing: border-box;
   margin: 15px auto;
+  width: 80%;
 }
 
 .circle-picture {
   display: inline-block;
-  margin: 0 20%;
+  padding-left: 40px;
+  width: 40%;
 }
 
 .circle-picture img {
@@ -139,8 +141,10 @@ nav a {
   display: block;
   text-align: center;
   margin-top: -206px;
-  margin-left: 263px;
+  /* margin-left: 263px; */
+  margin-left: 30%;
   height: 204px;
+  width: 60%;
 }
 
 .site-title h1 {
