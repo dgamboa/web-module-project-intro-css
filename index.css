@@ -119,6 +119,7 @@ nav a {
   box-sizing: border-box;
   margin: 15px auto;
   width: 80%;
+  min-height: 18vh;
 }
 
 .circle-picture {
