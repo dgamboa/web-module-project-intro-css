@@ -126,7 +126,7 @@ nav a {
 }
 
 .circle-picture img {
-  border-radius: 110px;
+  border-radius: 50%;
   width: 220px;
   transition: 1s;
 }
